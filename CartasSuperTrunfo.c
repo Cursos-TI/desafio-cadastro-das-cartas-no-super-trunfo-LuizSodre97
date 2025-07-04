@@ -17,6 +17,13 @@ int main() {
     printf("O pib é: %.5f.Bilhoes\n", PIB);
     
     
+    populacao = (float)(populacao) / area;
+    printf("A densidade populacional é: %f\n", populacao);
+
+    PIB = (float)(PIB) / populacao;
+    printf("A densidade populacional é de: %f\n", PIB);
+
+    
 
     return 0;
 }
